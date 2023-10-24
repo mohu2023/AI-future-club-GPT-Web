@@ -310,9 +310,11 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "欢迎使用AI智聊小精灵！//
-      我是您身边的 GPT //
-智能问答助手。",
+    BotHello: "欢迎使用AI智聊小精灵！
+      
+      我是您身边的
+  
+GPT智能问答助手。",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
